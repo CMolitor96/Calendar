@@ -100,6 +100,7 @@ button {
   margin-left: 2px;
   margin-right: 2px;
   border: 2px solid black;
+  background-color: gray;
 }
 
 #timeDisplay8am {
@@ -124,7 +125,6 @@ button {
 #timeBlock8am {
   display: flex;
   justify-content: center;
-  background-color: green;
 }
 
 /*9am time block*/
@@ -140,6 +140,7 @@ button {
   margin-left: 2px;
   margin-right: 2px;
   border: 2px solid black;
+  background-color: gray;
 }
 
 #timeDisplay9am {
@@ -164,6 +165,325 @@ button {
 #timeBlock9am {
   display: flex;
   justify-content: center;
-  background-color: green;
 }
 
+
+/*10am time block*/
+#notes10am {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea10am {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay10am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save10am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock10am {
+  display: flex;
+  justify-content: center;
+}
+
+/*11am time block*/
+#notes11am {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea11am {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay11am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save11am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock11am {
+  display: flex;
+  justify-content: center;
+}
+
+/*12pm time block*/
+#notes12pm {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea12pm {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay12pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save12pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock12pm {
+  display: flex;
+  justify-content: center;
+}
+
+/*1pm time block*/
+#notes1pm {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea1pm {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay1pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save1pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock1pm {
+  display: flex;
+  justify-content: center;
+}
+
+/*2pm time block*/
+#notes2pm {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea2pm {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay2pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save2pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock2pm {
+  display: flex;
+  justify-content: center;
+}
+
+/*3pm time block*/
+#notes3pm {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea3pm {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay3pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save3pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock3pm {
+  display: flex;
+  justify-content: center;
+}
+
+/*4pm time block*/
+#notes4pm {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea4pm {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay4pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save4pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock4pm {
+  display: flex;
+  justify-content: center;
+}
+
+/*5pm time block*/
+#notes5pm {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea5pm {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+#timeDisplay5pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save5pm {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock5pm {
+  display: flex;
+  justify-content: center;
+}
