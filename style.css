@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -13,15 +19,21 @@ textarea{
   padding: 10px;
 }
 
+button {
+  background-color: blue;
+  color: white;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding: 5px;
 }
 
-.description{
+/* .description{
   white-space: pre-wrap;
 }
 
@@ -68,4 +80,90 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+#notes8am {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea8am {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+}
+
+#timeDisplay8am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save8am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock8am {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+/*9am time block*/
+#notes9am {
+  display: inline-block;
+  width: 80%;
+  margin: 2px;
+}
+
+#textArea9am {
+  display: inline-block;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 2px solid black;
+}
+
+#timeDisplay9am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  border: 2px dashed black;
+  text-align: center;
+  margin-top: 18px;
+  padding-top: 25px;
+}
+#save9am {
+  display: inline-block;
+  width: 10%;
+  height: 72px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+  margin-top: 18px;
+}
+
+#timeBlock9am {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
