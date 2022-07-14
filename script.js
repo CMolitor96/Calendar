@@ -190,3 +190,94 @@ saveButton10am.click(function() {
 var displayNew10am = localStorage.getItem('10am');
 textArea10am.val(displayNew10am);
 
+// 11am notes
+var textArea11am = $('#textArea11am');
+var saveButton11am = $('#save11am');
+
+saveButton11am.click(function() {
+    saveButton11am.attr('style', 'background-color: green;');
+    var text11amValue = textArea11am.val();
+    localStorage.setItem('11am', text11amValue);
+});
+
+var displayNew11am = localStorage.getItem('11am');
+textArea11am.val(displayNew11am);
+
+// 12pm notes
+var textArea12pm = $('#textArea12pm');
+var saveButton12pm = $('#save12pm');
+
+saveButton12pm.click(function() {
+    saveButton12pm.attr('style', 'background-color: green;');
+    var text12pmValue = textArea12pm.val();
+    localStorage.setItem('12pm', text12pmValue);
+});
+
+var displayNew12pm = localStorage.getItem('12pm');
+textArea12pm.val(displayNew12pm);
+
+// 1pm notes
+
+var textArea1pm = $('#textArea1pm');
+var saveButton1pm = $('#save1pm');
+
+saveButton1pm.click(function() {
+    saveButton1pm.attr('style', 'background-color: green;');
+    var text1pmValue = textArea1pm.val();
+    localStorage.setItem('1pm', text1pmValue);
+});
+
+var displayNew1pm = localStorage.getItem('1pm');
+textArea1pm.val(displayNew1pm);
+
+// 2pm notes
+var textArea2pm = $('#textArea2pm');
+var saveButton2pm = $('#save2pm');
+
+saveButton2pm.click(function() {
+    saveButton2pm.attr('style', 'background-color: green;');
+    var text2pmValue = textArea2pm.val();
+    localStorage.setItem('2pm', text2pmValue);
+});
+
+var displayNew2pm = localStorage.getItem('2pm');
+textArea2pm.val(displayNew2pm);
+
+// 3pm notes
+var textArea3pm = $('#textArea3pm');
+var saveButton3pm = $('#save3pm');
+
+saveButton3pm.click(function() {
+    saveButton3pm.attr('style', 'background-color: green;');
+    var text3pmValue = textArea3pm.val();
+    localStorage.setItem('3pm', text3pmValue);
+});
+
+var displayNew3pm = localStorage.getItem('3pm');
+textArea3pm.val(displayNew3pm);
+
+// 4pm notes
+var textArea4pm = $('#textArea4pm');
+var saveButton4pm = $('#save4pm');
+
+saveButton4pm.click(function() {
+    saveButton4pm.attr('style', 'background-color: green;');
+    var text4pmValue = textArea4pm.val();
+    localStorage.setItem('4pm', text4pmValue);
+});
+
+var displayNew4pm = localStorage.getItem('4pm');
+textArea4pm.val(displayNew4pm);
+
+// 5pm notes
+var textArea5pm = $('#textArea5pm');
+var saveButton5pm = $('#save5pm');
+
+saveButton5pm.click(function() {
+    saveButton5pm.attr('style', 'background-color: green;');
+    var text5pmValue = textArea5pm.val();
+    localStorage.setItem('5pm', text5pmValue);
+});
+
+var displayNew5pm = localStorage.getItem('5pm');
+textArea5pm.val(displayNew5pm);
