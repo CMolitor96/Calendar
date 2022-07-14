@@ -33,6 +33,29 @@ var background3pm = $('#timeBlock3pm');
 var background4pm = $('#timeBlock4pm');
 var background5pm = $('#timeBlock5pm');
 
+// function whatever(time) {
+//     return $('#timeBlock' + 'time')
+// }
+
+
+
+// function background(currentHour, calendarHour) {
+//     var color
+//     if currentHour == calendarHour {
+//         color = "red"
+//     } else if currentHour > calendarHour {
+//         color = "yellow"
+//     } else {
+//         color = "green" 
+//     }
+//     // background.attr('style', 'background-color: red;')
+// }
+
+// currentHour = whatever
+// for i in 8...17 {
+//     let backgroundColor = background(currentHour, i)
+
+// }
 
 //for 8 am background change
 // var background8am = $('#timeBlock8am');
@@ -126,6 +149,44 @@ if (hour === 17) {
     background5pm.attr('style', 'background-color: red');
 }
 
-var testHour = new Date(2022, 06, 14, 15, 30);
-console.log(testHour);
-console.log(testHour.getHours());
+//10am notes
+var textArea8am = $('#textArea8am');
+var saveButton8am = $('#save8am');
+
+saveButton8am.click(function() {
+    saveButton8am.attr('style', 'background-color: green;');
+    var text8amValue = textArea8am.val();
+    localStorage.setItem('8am', text8amValue);
+    console.log(text8amValue);
+});
+
+var displayNew = localStorage.getItem('8am');
+textArea8am.val(displayNew);
+
+
+//9am notes
+var textArea9am = $('#textArea9am');
+var saveButton9am = $('#save9am');
+
+saveButton9am.click(function() {
+    saveButton9am.attr('style', 'background-color: green;');
+    var text9amValue = textArea9am.val();
+    localStorage.setItem('9am', text9amValue);
+});
+
+var displayNew9am = localStorage.getItem('9am');
+textArea9am.val(displayNew9am);
+
+// 10am notes
+var textArea10am = $('#textArea10am');
+var saveButton10am = $('#save10am');
+
+saveButton10am.click(function() {
+    saveButton10am.attr('style', 'background-color: green;');
+    var text10amValue = textArea10am.val();
+    localStorage.setItem('10am', text10amValue);
+});
+
+var displayNew10am = localStorage.getItem('10am');
+textArea10am.val(displayNew10am);
+

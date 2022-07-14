@@ -125,6 +125,7 @@ button {
 #timeBlock8am {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*9am time block*/
@@ -165,6 +166,7 @@ button {
 #timeBlock9am {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 
@@ -206,6 +208,7 @@ button {
 #timeBlock10am {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*11am time block*/
@@ -246,6 +249,7 @@ button {
 #timeBlock11am {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*12pm time block*/
@@ -286,6 +290,7 @@ button {
 #timeBlock12pm {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*1pm time block*/
@@ -326,6 +331,7 @@ button {
 #timeBlock1pm {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*2pm time block*/
@@ -366,6 +372,7 @@ button {
 #timeBlock2pm {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*3pm time block*/
@@ -406,6 +413,7 @@ button {
 #timeBlock3pm {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*4pm time block*/
@@ -446,6 +454,7 @@ button {
 #timeBlock4pm {
   display: flex;
   justify-content: center;
+  border-bottom: 5px dashed black;
 }
 
 /*5pm time block*/
