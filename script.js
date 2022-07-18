@@ -1,11 +1,11 @@
 // //function to display current time in jumbotron
 var displayCurrentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
 var currentDayEl = $('#currentDay');
-currentDayEl.text(displayCurrentTime);
+currentDayEl.text('Today is ' + displayCurrentTime);
 function currentTime() {
     var displayCurrentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
     var currentDayEl = $('#currentDay');
-    currentDayEl.text(displayCurrentTime);
+    currentDayEl.text('Today is ' + displayCurrentTime);
 }
 setInterval(currentTime, 1000);
 
@@ -33,14 +33,25 @@ var background3pm = $('#timeBlock3pm');
 var background4pm = $('#timeBlock4pm');
 var background5pm = $('#timeBlock5pm');
 
+
+//Trying to get color changes in one loop function
+
+// function loop() {
+//     for ()
+// }
 // function whatever(time) {
 //     return $('#timeBlock' + 'time')
 // }
 
-
+// var testing = $('.timeBLock');
+// testing.each(function() {
+//     console.log($(this).attr('id').charAt(9));
+// });
 
 // function background(currentHour, calendarHour) {
-//     var color
+
+  
+
 //     if currentHour == calendarHour {
 //         color = "red"
 //     } else if currentHour > calendarHour {
@@ -281,3 +292,11 @@ saveButton5pm.click(function() {
 
 var displayNew5pm = localStorage.getItem('5pm');
 textArea5pm.val(displayNew5pm);
+
+//Trying to get all values in one loop function
+
+// var allButtons = $('.saveButton');
+// allButtons.click(function() {
+//     console.log($(this).siblings('form').children()[1].value);
+    
+// });
