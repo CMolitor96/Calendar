@@ -6,3 +6,4 @@ This is a simple daily calendar to keep track of events. There is a time block f
 URL of deployed application:
 
 Screenshot of application:
+![Work-Day-Scheduler](https://user-images.githubusercontent.com/103666997/179604476-c0917900-01d2-455c-9afb-7b0f8995b5b0.png)
